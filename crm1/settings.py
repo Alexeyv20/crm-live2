@@ -136,7 +136,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 MEDIA_URL = '/images/'
@@ -154,15 +154,15 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'Alexeyv007007@gmail.com'
 EMAIL_HOST_PASSWORD = 'DrHorrible007007'
 
-AWS_ACCESS_KEY_ID = 'AKIATWRJYWWNB4DUW7H5'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'alexeyv40-crm-bucket'
+#AWS_ACCESS_KEY_ID = 'AKIATWRJYWWNB4DUW7H5'
+#AWS_SECRET_ACCESS_KEY = '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'
+#AWS_STORAGE_BUCKET_NAME = 'alexeyv40-crm-bucket'
 
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_S3_HOST = 's3.us-west-2.amazonaws.com'
-AWS_S3_REGION_NAME="us-west-2"
+#AWS_S3_FILE_OVERWRITE = False
+#AWS_DEFAULT_ACL = None
+#DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+#STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+#AWS_S3_HOST = 's3.us-west-2.amazonaws.com'
+#AWS_S3_REGION_NAME="us-west-2"
 
 #STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
